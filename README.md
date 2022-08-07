@@ -10,7 +10,7 @@ mieux pour chaque image en tenant en compte du contraste, de la luminance et des
 contiennent les mêmes pixels que le background de l’image. Donc pour pallier ce genre de problème, nous pouvons améliorer le contraste de
 l’image. Nous disposons de plusieurs techniques pour améliorer le contraste à savoir: Égalisation de l’histogramme, transformation linéaire
 et non linéaire (correction gamma). Nous avons essayé l’égalisation de l’histogramme et la correction gamma.
-#La Segmentation
+# La Segmentation
 Comme pour la pré-segmentation, pour la segmentation nous disposons aussi de plusieurs techniques divisées en deux principales approches à savoir, l’approche Régions et l’approche Contours. Dans notre cas nousallons utiliser le seuillage adaptatif et plus précisément le seuillage local adaptatif.
 # Post-segmentation
 Nous constatons que nous avons encore des régions connectées dans le résultats obtenu, ce qui ne nous permet pas de compter les objets
